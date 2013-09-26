@@ -6,3 +6,13 @@ title: dino
 <h1>Dino</h1>
 
 <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah — dinos are awesome.</p>
+
+<h2>Herbivors</h2>
+
+<ul>
+	{% for dino in site.pages}
+		{% if dino.category == "herbivore" %}
+			<li>{{dino.name}}/li>
+		{% endif %}
+	{% endfor %}
+</ul>
