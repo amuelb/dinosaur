@@ -1,5 +1,3 @@
-#dino.github.io
+# Dinosaurs
 
----
-
-My dino website demo
+A website listing popular dinosaurs.
